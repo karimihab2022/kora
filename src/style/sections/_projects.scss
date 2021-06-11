@@ -26,6 +26,9 @@
 
     &__text {
       text-align: left;
+      font-size: 100px;
+      font-weight: bold;
+      
 
       @include respond(phone) {
         margin-bottom: 2.5rem !important;
@@ -48,7 +51,7 @@
         color: $secondary-color;
       }
     }
-
+     
     &__image {
       width: 90%;
       margin: 0 auto;
